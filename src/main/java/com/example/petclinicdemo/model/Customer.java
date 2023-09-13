@@ -19,7 +19,7 @@ public class Customer {
     private String name;
 
     @Column(name = "address", nullable = false)
-    private int address;
+    private String address;
 
     @Column(name = "city", nullable = false)
     private String city;
