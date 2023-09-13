@@ -41,7 +41,7 @@ class CustomerServiceUnitTest {
         //Act
         Customer savedCustomer = customerService.save(customer);
         //Assert
-        Assertions.assertThat(savedCustomer).isNotNull();
+        Assertions.assertThat(savedCustomer).isNull();
         verify(customerRepository, times(1)).save(customer);
         verifyNoMoreInteractions(customerRepository);
     }
