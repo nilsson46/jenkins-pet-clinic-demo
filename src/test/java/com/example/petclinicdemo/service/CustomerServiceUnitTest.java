@@ -30,7 +30,7 @@ class CustomerServiceUnitTest {
                 .address("Nejlikevägen 10")
                 .city("Lindome")
                 .phone_number("0708667373")
-                .pet("Dog")
+                .pet("Fish")
                 .build();
     }
 
