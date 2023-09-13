@@ -8,5 +8,7 @@ class HelloControllerTest {
 
     @Test
     void helloWorld() {
+        HelloController helloController = new HelloController();
+        assertEquals(helloController, "Hello Cat");
     }
 }
